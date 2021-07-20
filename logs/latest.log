@@ -1,0 +1,916 @@
+[19Jul2021 16:48:08.729] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.1.62, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[19Jul2021 16:48:08.734] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_291 by Oracle Corporation
+[19Jul2021 16:48:09.142] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[19Jul2021 16:48:09.171] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/Rush/Desktop/Servers/ldoh/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[19Jul2021 16:48:10.380] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[19Jul2021 16:48:10.976] [main/ERROR] [mixin/]: Mixin config unionlib.mixins.json does not specify "minVersion" property
+[19Jul2021 16:48:11.015] [main/ERROR] [mixin/]: Mixin config survive.mixins.json does not specify "minVersion" property
+[19Jul2021 16:48:11.038] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[19Jul2021 16:48:11.224] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[19Jul2021 16:48:11.581] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[19Jul2021 16:48:11.772] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[19Jul2021 16:48:11.776] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[19Jul2021 16:48:11.908] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+[19Jul2021 16:48:11.908] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
+[19Jul2021 16:48:11.909] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found twoplayersonehorse.mixins.json:ClientPlayerEntityMixin
+[19Jul2021 16:48:11.911] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/PlayerController for invalid dist DEDICATED_SERVER
+[19Jul2021 16:48:11.912] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/PlayerController (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/PlayerController for invalid dist DEDICATED_SERVER)
+[19Jul2021 16:48:11.912] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.PlayerController was not found twoplayersonehorse.mixins.json:PlayerControllerMixin
+[19Jul2021 16:48:11.914] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/entity/LivingRenderer for invalid dist DEDICATED_SERVER
+[19Jul2021 16:48:11.914] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/LivingRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/entity/LivingRenderer for invalid dist DEDICATED_SERVER)
+[19Jul2021 16:48:11.917] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.LivingRenderer was not found twoplayersonehorse.mixins.json:LivingRendererMixin
+[19Jul2021 16:48:11.924] [main/WARN] [mixin/]: Error loading class: io/github/apace100/origins/origin/OriginManager (java.lang.ClassNotFoundException: null)
+[19Jul2021 16:48:11.925] [main/WARN] [mixin/]: @Mixin target io.github.apace100.origins.origin.OriginManager was not found survive.mixins.json:OriginManagerMixin
+[19Jul2021 16:48:12.663] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[19Jul2021 16:48:12.663] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[19Jul2021 16:48:13.719] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[19Jul2021 16:48:13.944] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#<init>
+[19Jul2021 16:48:13.955] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#onCraftMatrixChanged
+[19Jul2021 16:48:13.963] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#transferStackInSlot
+[19Jul2021 16:48:14.034] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[19Jul2021 16:48:14.035] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[19Jul2021 16:48:15.547] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#<init>
+[19Jul2021 16:48:15.551] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#onCraftMatrixChanged
+[19Jul2021 16:48:15.558] [main/INFO] [net.minecraftforge.coremod.CoreMod.fastbench/COREMODLOG]: Patching PlayerContainer#transferStackInSlot
+[19Jul2021 16:48:18.649] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[19Jul2021 16:48:25.679] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:25.757] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:26.009] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `walljump` for name `walljump`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:26.012] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `walljump` for name `doublejump`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:26.016] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `walljump` for name `speedboost`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:27.094] [modloading-worker-11/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:loadConfig:286]: C:\Users\Rush\Desktop\Servers\ldoh\config
+[19Jul2021 16:48:27.762] [modloading-worker-12/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.1.62, for MC 1.16.5 with MCP 20210115.111550
+[19Jul2021 16:48:27.768] [modloading-worker-15/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[19Jul2021 16:48:27.775] [modloading-worker-12/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.1.62 Initialized
+[19Jul2021 16:48:28.526] [modloading-worker-13/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:loadConfig:286]: C:\Users\Rush\Desktop\Servers\ldoh\config
+[19Jul2021 16:48:28.799] [modloading-worker-2/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[19Jul2021 16:48:28.833] [modloading-worker-13/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:loadConfig:286]: C:\Users\Rush\Desktop\Servers\ldoh\config
+[19Jul2021 16:48:28.890] [modloading-worker-13/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:loadConfig:286]: C:\Users\Rush\Desktop\Servers\ldoh\config
+[19Jul2021 16:48:29.123] [modloading-worker-13/INFO] [corgitaco.enchancedcelestials.EnhancedCelestials/]: Loading config: C:\Users\Rush\Desktop\Servers\ldoh\config\enhancedcelestials\enhancedcelestials-common.toml
+[19Jul2021 16:48:29.277] [modloading-worker-10/INFO] [terraincognita/]: Integrating with Quark...
+[19Jul2021 16:48:29.264] [modloading-worker-4/INFO] [Charm/INTERNAL]: Setting up a new Charm-based module 'charm'
+[19Jul2021 16:48:29.173] [modloading-worker-2/INFO] [com.brandon3055.csg.DataManager/]: Reading starting inventory config
+[19Jul2021 16:48:29.511] [modloading-worker-4/INFO] [Charm/INTERNAL]: Subscribed 'charm' to Forge event bus
+[19Jul2021 16:48:29.649] [modloading-worker-3/INFO] [its_meow.betteranimalsplus.BetterAnimalsPlusMod/]: Injecting super coyotes...
+[19Jul2021 16:48:29.550] [modloading-worker-2/INFO] [com.brandon3055.csg.DataManager/]: Loaded 5 starting items.
+[19Jul2021 16:48:30.121] [modloading-worker-4/INFO] [Charm/INTERNAL]: Loaded Quark compatibility class
+[19Jul2021 16:48:31.579] [Hats Hat Reader Thread/INFO] [me.ichun.mods.hats.common.Hats/]: Loaded 488 files. 213 hats, 275 accessories.
+[19Jul2021 16:48:39.750] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:39.765] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.039] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `white_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.107] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `orange_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.113] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `magenta_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.149] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `light_blue_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.178] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `yellow_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.197] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `lime_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.217] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `pink_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.248] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `gray_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.284] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `light_gray_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.284] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `cyan_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.290] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `purple_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.291] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `blue_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.291] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `brown_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.291] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `green_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.292] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `red_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.292] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `black_wool`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.323] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `oak_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.338] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `spruce_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.339] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `birch_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.340] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `jungle_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.340] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `acacia_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.340] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `dark_oak_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.340] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crimson_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.341] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `warped_planks`, expected `doggytalents`. This could be a intended override, but in most cases indicates a broken mod.
+[19Jul2021 16:48:41.356] [main/INFO] [Bookshelf/]: Registered 11 GlobalLootModifierSerializer entries in 0.81ms.
+[19Jul2021 16:48:43.194] [main/INFO] [Bookshelf/]: Registered 22 ingredient serializers.
+[19Jul2021 16:48:43.210] [main/INFO] [Bookshelf/]: Registered 5 IRecipeSerializer entries in 1.41ms.
+[19Jul2021 16:48:44.323] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:the_end has been registered twice for the same name minecraft:the_end.
+[19Jul2021 16:48:44.327] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:end_barrens has been registered twice for the same name minecraft:end_barrens.
+[19Jul2021 16:48:44.328] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:small_end_islands has been registered twice for the same name minecraft:small_end_islands.
+[19Jul2021 16:48:44.328] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:end_midlands has been registered twice for the same name minecraft:end_midlands.
+[19Jul2021 16:48:44.330] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:end_highlands has been registered twice for the same name minecraft:end_highlands.
+[19Jul2021 16:48:44.847] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:onLoad:353]: Loading all values from the config files into their respective configuration variables
+[19Jul2021 16:48:44.942] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:onLoad:357]: Loading union's config
+[19Jul2021 16:48:45.039] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:onLoad:357]: Loading survive's config
+[19Jul2021 16:48:45.121] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:onLoad:357]: Loading survive-server's config
+[19Jul2021 16:48:45.161] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:reload:346]: Detected change in a union's config file. Reloading values
+[19Jul2021 16:48:45.163] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:reload:346]: Detected change in a survive's config file. Reloading values
+[19Jul2021 16:48:45.165] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:reload:346]: Detected change in a survive-server's config file. Reloading values
+[19Jul2021 16:48:45.165] [main/INFO] [STDOUT/]: [com.stereowalker.unionlib.config.ConfigBuilder:onReload:333]: From the event itself
+[19Jul2021 16:48:46.897] [main/INFO] [quark/]: Loading Module Chain Linkage
+[19Jul2021 16:48:46.913] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
+[19Jul2021 16:48:46.914] [main/INFO] [quark/]: Loading Module Chute
+[19Jul2021 16:48:46.918] [main/INFO] [quark/]: Loading Module Color Slime
+[19Jul2021 16:48:46.919] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[19Jul2021 16:48:46.919] [main/INFO] [quark/]: Loading Module Ender Watcher
+[19Jul2021 16:48:46.920] [main/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[19Jul2021 16:48:46.923] [main/INFO] [quark/]: Loading Module Feeding Trough
+[19Jul2021 16:48:46.925] [main/INFO] [quark/]: Loading Module Gravisand
+[19Jul2021 16:48:46.925] [main/INFO] [quark/]: Loading Module Iron Rod
+[19Jul2021 16:48:46.925] [main/INFO] [quark/]: Loading Module Metal Buttons
+[19Jul2021 16:48:46.926] [main/INFO] [quark/]: Loading Module Obsidian Plate
+[19Jul2021 16:48:46.926] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[19Jul2021 16:48:46.928] [main/INFO] [quark/]: Loading Module Redstone Circuit
+[19Jul2021 16:48:46.929] [main/INFO] [quark/]: Loading Module Weather Sensor
+[19Jul2021 16:48:46.929] [main/INFO] [quark/]: Loading Module Bamboo Mat
+[19Jul2021 16:48:46.929] [main/INFO] [quark/]: Loading Module Burn Vines
+[19Jul2021 16:48:46.930] [main/INFO] [quark/]: Loading Module Celebratory Lamps
+[19Jul2021 16:48:46.930] [main/INFO] [quark/]: Loading Module Cobblestone Bricks
+[19Jul2021 16:48:46.931] [main/INFO] [quark/]: Loading Module Compressed Blocks
+[19Jul2021 16:48:46.931] [main/INFO] [quark/]: Loading Module Duskbound Blocks
+[19Jul2021 16:48:46.931] [main/INFO] [quark/]: Loading Module Framed Glass
+[19Jul2021 16:48:46.931] [main/INFO] [quark/]: Loading Module Gold Bars
+[19Jul2021 16:48:46.932] [main/INFO] [quark/]: Loading Module Grate
+[19Jul2021 16:48:46.932] [main/INFO] [quark/]: Loading Module Hedges
+[19Jul2021 16:48:46.932] [main/INFO] [quark/]: Loading Module Iron Plates
+[19Jul2021 16:48:46.933] [main/INFO] [quark/]: Loading Module Item Frames
+[19Jul2021 16:48:46.933] [main/INFO] [quark/]: Loading Module Leaf Carpet
+[19Jul2021 16:48:46.933] [main/INFO] [quark/]: Loading Module Lit Lamp
+[19Jul2021 16:48:46.933] [main/INFO] [quark/]: Loading Module Midori
+[19Jul2021 16:48:46.934] [main/INFO] [quark/]: Loading Module More Brick Types
+[19Jul2021 16:48:46.934] [main/INFO] [quark/]: Loading Module More Potted Plants
+[19Jul2021 16:48:46.934] [main/INFO] [quark/]: Loading Module More Stone Variants
+[19Jul2021 16:48:46.935] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[19Jul2021 16:48:46.935] [main/INFO] [quark/]: Loading Module Paper Decor
+[19Jul2021 16:48:46.935] [main/INFO] [quark/]: Loading Module Quilted Wool
+[19Jul2021 16:48:46.935] [main/INFO] [quark/]: Loading Module Rope
+[19Jul2021 16:48:46.936] [main/INFO] [quark/]: Loading Module Shallow Dirt
+[19Jul2021 16:48:46.937] [main/INFO] [quark/]: Loading Module Shingles
+[19Jul2021 16:48:46.939] [main/INFO] [quark/]: Loading Module Soul Sandstone
+[19Jul2021 16:48:46.939] [main/INFO] [quark/]: Loading Module Stained Planks
+[19Jul2021 16:48:46.940] [main/INFO] [quark/]: Loading Module Stools
+[19Jul2021 16:48:46.941] [main/INFO] [quark/]: Loading Module Sturdy Stone
+[19Jul2021 16:48:46.941] [main/INFO] [quark/]: Loading Module Tallow And Candles
+[19Jul2021 16:48:46.942] [main/INFO] [quark/]: Loading Module Thatch
+[19Jul2021 16:48:46.942] [main/INFO] [quark/]: Loading Module Tie Leads To Fences
+[19Jul2021 16:48:46.943] [main/INFO] [quark/]: Loading Module Turf
+[19Jul2021 16:48:46.943] [main/INFO] [quark/]: Loading Module Variant Bookshelves
+[19Jul2021 16:48:46.943] [main/INFO] [quark/]: Loading Module Variant Chests
+[19Jul2021 16:48:46.947] [main/INFO] [quark/]: Loading Module Variant Ladders
+[19Jul2021 16:48:46.948] [main/INFO] [quark/]: Loading Module Vertical Planks
+[19Jul2021 16:48:46.948] [main/INFO] [quark/]: Loading Module Vertical Slabs
+[19Jul2021 16:48:46.948] [main/INFO] [quark/]: Loading Module Wooden Posts
+[19Jul2021 16:48:46.949] [main/INFO] [quark/]: Loading Module Chests In Boats
+[19Jul2021 16:48:46.949] [main/INFO] [quark/]: Loading Module Easy Transfering
+[19Jul2021 16:48:46.950] [main/INFO] [quark/]: Loading Module Hotbar Changer
+[19Jul2021 16:48:46.950] [main/INFO] [quark/]: Loading Module Inventory Sorting
+[19Jul2021 16:48:46.950] [main/INFO] [quark/]: Loading Module Item Sharing
+[19Jul2021 16:48:46.951] [main/INFO] [quark/]: Loading Module Right Click Armor
+[19Jul2021 16:48:46.951] [main/INFO] [quark/]: Loading Module Shulker Box Right Click
+[19Jul2021 16:48:46.952] [main/INFO] [quark/]: Loading Module Abacus
+[19Jul2021 16:48:46.952] [main/INFO] [quark/]: Loading Module Ancient Tomes
+[19Jul2021 16:48:46.954] [main/INFO] [quark/]: Loading Module Bottled Cloud
+[19Jul2021 16:48:46.956] [main/INFO] [quark/]: Loading Module Camera
+[19Jul2021 16:48:46.956] [main/INFO] [quark/]: Loading Module Color Runes
+[19Jul2021 16:48:46.957] [main/INFO] [quark/]: Loading Module Pathfinder Maps
+[19Jul2021 16:48:46.958] [main/INFO] [quark/]: Loading Module Pickarang
+[19Jul2021 16:48:46.958] [main/INFO] [quark/]: Loading Module Seed Pouch
+[19Jul2021 16:48:46.959] [main/INFO] [quark/]: Loading Module Slime In A Bucket
+[19Jul2021 16:48:46.960] [main/INFO] [quark/]: Loading Module Trowel
+[19Jul2021 16:48:46.960] [main/INFO] [quark/]: Loading Module Skull Pikes
+[19Jul2021 16:48:46.961] [main/INFO] [quark/]: Loading Module Armed Armor Stands
+[19Jul2021 16:48:46.961] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[19Jul2021 16:48:46.962] [main/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[19Jul2021 16:48:46.963] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
+[19Jul2021 16:48:46.963] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[19Jul2021 16:48:46.964] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[19Jul2021 16:48:46.965] [main/INFO] [quark/]: Loading Module Dirt To Path
+[19Jul2021 16:48:46.966] [main/INFO] [quark/]: Loading Module Double Door Opening
+[19Jul2021 16:48:46.966] [main/INFO] [quark/]: Loading Module Dragon Scales
+[19Jul2021 16:48:46.967] [main/INFO] [quark/]: Loading Module Emotes
+[19Jul2021 16:48:46.967] [main/INFO] [quark/]: Loading Module Enhanced Ladders
+[19Jul2021 16:48:46.972] [main/INFO] [quark/]: Loading Module Glass Shard
+[19Jul2021 16:48:46.974] [main/INFO] [quark/]: Loading Module Hoe Harvesting
+[19Jul2021 16:48:46.976] [main/INFO] [quark/]: Loading Module Improved Sleeping
+[19Jul2021 16:48:46.977] [main/INFO] [quark/]: Loading Module Infinity Bucket
+[19Jul2021 16:48:46.982] [main/INFO] [quark/]: Loading Module Lava Bucket As Trash
+[19Jul2021 16:48:46.983] [main/INFO] [quark/]: Loading Module Lock Rotation
+[19Jul2021 16:48:46.986] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[19Jul2021 16:48:46.998] [main/INFO] [quark/]: Loading Module Pat The Dogs
+[19Jul2021 16:48:47.004] [main/INFO] [quark/]: Loading Module Poison Potato Usage
+[19Jul2021 16:48:47.006] [main/INFO] [quark/]: Loading Module Reacharound Placing
+[19Jul2021 16:48:47.013] [main/INFO] [quark/]: Loading Module Replace Scaffolding
+[19Jul2021 16:48:47.014] [main/INFO] [quark/]: Loading Module Sign Editing
+[19Jul2021 16:48:47.015] [main/INFO] [quark/]: Loading Module Simple Harvest
+[19Jul2021 16:48:47.017] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[19Jul2021 16:48:47.018] [main/INFO] [quark/]: Loading Module Springy Slime
+[19Jul2021 16:48:47.020] [main/INFO] [quark/]: Loading Module Utility Recipes
+[19Jul2021 16:48:47.021] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[19Jul2021 16:48:47.022] [main/INFO] [quark/]: Loading Module Big Dungeon
+[19Jul2021 16:48:47.022] [main/INFO] [quark/]: Loading Module Big Stone Clusters
+[19Jul2021 16:48:47.023] [main/INFO] [quark/]: Loading Module Biotite
+[19Jul2021 16:48:47.024] [main/INFO] [quark/]: Loading Module Blossom Trees
+[19Jul2021 16:48:47.024] [main/INFO] [quark/]: Loading Module Cave Roots
+[19Jul2021 16:48:47.024] [main/INFO] [quark/]: Loading Module Chorus Vegetation
+[19Jul2021 16:48:47.024] [main/INFO] [quark/]: Loading Module Crevices
+[19Jul2021 16:48:47.024] [main/INFO] [quark/]: Loading Module Fairy Rings
+[19Jul2021 16:48:47.025] [main/INFO] [quark/]: Loading Module Mega Caves
+[19Jul2021 16:48:47.025] [main/INFO] [quark/]: Loading Module Monster Box
+[19Jul2021 16:48:47.026] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[19Jul2021 16:48:47.026] [main/INFO] [quark/]: Loading Module New Stone Types
+[19Jul2021 16:48:47.027] [main/INFO] [quark/]: Loading Module Realistic World Gen
+[19Jul2021 16:48:47.027] [main/INFO] [quark/]: Loading Module Speleothems
+[19Jul2021 16:48:47.027] [main/INFO] [quark/]: Loading Module Spiral Spires
+[19Jul2021 16:48:47.028] [main/INFO] [quark/]: Loading Module Underground Clay
+[19Jul2021 16:48:47.029] [main/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[19Jul2021 16:48:47.029] [main/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[19Jul2021 16:48:47.029] [main/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[19Jul2021 16:48:47.029] [main/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[19Jul2021 16:48:47.030] [main/INFO] [quark/]: Loading Module Lush Underground Biome
+[19Jul2021 16:48:47.030] [main/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[19Jul2021 16:48:47.030] [main/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[19Jul2021 16:48:47.030] [main/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[19Jul2021 16:48:47.031] [main/INFO] [quark/]: Loading Module Slime Underground Biome
+[19Jul2021 16:48:47.031] [main/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[19Jul2021 16:48:47.033] [main/INFO] [quark/]: Loading Module Crabs
+[19Jul2021 16:48:47.036] [main/INFO] [quark/]: Loading Module Forgotten
+[19Jul2021 16:48:47.037] [main/INFO] [quark/]: Loading Module Foxhound
+[19Jul2021 16:48:47.038] [main/INFO] [quark/]: Loading Module Frogs
+[19Jul2021 16:48:47.039] [main/INFO] [quark/]: Loading Module Stonelings
+[19Jul2021 16:48:47.039] [main/INFO] [quark/]: Loading Module Toretoise
+[19Jul2021 16:48:47.114] [main/INFO] [quark/]: Loading Module Wraith
+[19Jul2021 16:48:47.140] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
+[19Jul2021 16:48:47.141] [main/INFO] [quark/]: Loading Module Back Button Keybind
+[19Jul2021 16:48:47.144] [main/INFO] [quark/]: Loading Module Chest Searching
+[19Jul2021 16:48:47.145] [main/INFO] [quark/]: Loading Module Greener Grass
+[19Jul2021 16:48:47.145] [main/INFO] [quark/]: Loading Module Improved Mount Hud
+[19Jul2021 16:48:47.145] [main/INFO] [quark/]: Loading Module Improved Tooltips
+[19Jul2021 16:48:47.147] [main/INFO] [quark/]: Loading Module Usage Ticker
+[19Jul2021 16:48:47.149] [main/INFO] [quark/]: Loading Module Variant Animal Textures
+[19Jul2021 16:48:47.149] [main/INFO] [quark/]: Loading Module Backpack
+[19Jul2021 16:48:47.150] [main/INFO] [quark/]: Loading Module Crate
+[19Jul2021 16:48:47.151] [main/INFO] [quark/]: Loading Module Magnets
+[19Jul2021 16:48:47.151] [main/INFO] [quark/]: Loading Module Matrix Enchanting
+[19Jul2021 16:48:47.164] [main/INFO] [quark/]: Loading Module Pipes
+[19Jul2021 16:48:47.179] [main/INFO] [quark/]: Loading Module Totem Of Holding
+[19Jul2021 16:48:47.181] [main/INFO] [quark/]: Loading Module Adjustable Chat
+[19Jul2021 16:48:47.185] [main/INFO] [quark/]: Loading Module Custom Underground Biome
+[19Jul2021 16:48:47.186] [main/INFO] [quark/]: Loading Module Game Nerfs
+[19Jul2021 16:48:47.187] [main/INFO] [quark/]: Loading Module Narrator Readout
+[19Jul2021 16:48:47.188] [main/INFO] [quark/]: Loading Module Overlay Shader
+[19Jul2021 16:48:47.188] [main/INFO] [quark/]: Loading Module Shiba
+[19Jul2021 16:48:47.300] [modloading-worker-12/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for doggytalents:dog, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:47.305] [modloading-worker-5/INFO] [Bookshelf/]: Registering 3 command argument types.
+[19Jul2021 16:48:47.357] [modloading-worker-5/INFO] [Bookshelf/]: Registering 13 loot conditions.
+[19Jul2021 16:48:47.376] [modloading-worker-13/INFO] [its_meow.betteranimalsplus.BetterAnimalsPlusMod/]: Overspawning lammergeiers...
+[19Jul2021 16:48:47.425] [modloading-worker-2/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
+[19Jul2021 16:48:47.419] [modloading-worker-4/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class azmalent.terraincognita.common.entity.butterfly.ButterflyEntity from class azmalent.terraincognita.common.entity.butterfly.AbstractButterflyEntity
+[19Jul2021 16:48:47.513] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for terraincognita:butterfly, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:47.398] [modloading-worker-10/INFO] [Mekanism/]: Version 10.0.21 initializing...
+[19Jul2021 16:48:47.385] [modloading-worker-3/INFO] [Mekanism/]: Loaded 'Mekanism: Additions' module.
+[19Jul2021 16:48:47.533] [modloading-worker-3/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
+[19Jul2021 16:48:47.377] [modloading-worker-15/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[19Jul2021 16:48:47.523] [modloading-worker-5/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:47.470] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [unionlib] Starting version check at https://raw.githubusercontent.com/Stereowalker/UnionLib/1.16-forge/src/main/resources/META-INF/update.json?token=AIP6TBTIHETPW7EI7336PL3AHEHKG
+[19Jul2021 16:48:47.618] [modloading-worker-5/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:47.653] [modloading-worker-2/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
+[19Jul2021 16:48:47.619] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for charm:coral_squid, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:47.761] [modloading-worker-10/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[19Jul2021 16:48:47.748] [modloading-worker-5/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:47.830] [modloading-worker-10/INFO] [Mekanism/]: Loading complete.
+[19Jul2021 16:48:47.828] [modloading-worker-15/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for charm:moobloom, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:47.832] [modloading-worker-5/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:47.832] [modloading-worker-6/INFO] [fathertoast.specialai.ModCore/]: First-time loading config file! (C:\Users\Rush\Desktop\Servers\ldoh\config\FatherToast\specialai\general.toml)
+[19Jul2021 16:48:47.833] [modloading-worker-5/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:47.833] [modloading-worker-10/INFO] [Mekanism/]: Mod loaded.
+[19Jul2021 16:48:47.842] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Acquisition
+[19Jul2021 16:48:47.885] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module AerialAffinity
+[19Jul2021 16:48:47.927] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module AnvilImprovements
+[19Jul2021 16:48:47.837] [modloading-worker-5/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:47.896] [modloading-worker-6/INFO] [fathertoast.specialai.ModCore/]: First-time loading config file! (C:\Users\Rush\Desktop\Servers\ldoh\config\FatherToast\specialai\idle_ai.toml)
+[19Jul2021 16:48:47.935] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module ArmorInvisibility
+[19Jul2021 16:48:47.993] [modloading-worker-5/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:48.003] [modloading-worker-6/INFO] [fathertoast.specialai.ModCore/]: First-time loading config file! (C:\Users\Rush\Desktop\Servers\ldoh\config\FatherToast\specialai\elite_ai.toml)
+[19Jul2021 16:48:48.141] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Atlas
+[19Jul2021 16:48:48.147] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module AutoRestock
+[19Jul2021 16:48:48.163] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module BatBuckets
+[19Jul2021 16:48:48.187] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module BeaconsHealMobs
+[19Jul2021 16:48:48.197] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Beekeepers
+[19Jul2021 16:48:48.211] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module BlockOfEnderPearls
+[19Jul2021 16:48:48.215] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module BlockOfGunpowder
+[19Jul2021 16:48:48.242] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module BlockOfSugar
+[19Jul2021 16:48:48.243] [modloading-worker-5/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:48.251] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Bookcases
+[19Jul2021 16:48:48.254] [modloading-worker-5/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:48.256] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module CampfiresNoDamage
+[19Jul2021 16:48:48.296] [modloading-worker-5/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:48.303] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.FileNotFoundException: https://raw.githubusercontent.com/Stereowalker/UnionLib/1.16-forge/src/main/resources/META-INF/update.json?token=AIP6TBTIHETPW7EI7336PL3AHEHKG
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_291]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_291]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_291]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_291]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_291]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:171) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_291]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:139) [forge:?]
+Caused by: java.io.FileNotFoundException: https://raw.githubusercontent.com/Stereowalker/UnionLib/1.16-forge/src/main/resources/META-INF/update.json?token=AIP6TBTIHETPW7EI7336PL3AHEHKG
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_291]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:155) ~[forge:?]
+	... 3 more
+[19Jul2021 16:48:48.306] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module CaveSpidersDropCobwebs
+[19Jul2021 16:48:48.377] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
+[19Jul2021 16:48:48.395] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module ChickensDropFeathers
+[19Jul2021 16:48:48.396] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module CoralSeaLanterns
+[19Jul2021 16:48:48.398] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module CoralSquids
+[19Jul2021 16:48:48.398] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Core
+[19Jul2021 16:48:48.398] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Crates
+[19Jul2021 16:48:48.399] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module DecreaseRepairCost
+[19Jul2021 16:48:48.399] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module EndermitePowder
+[19Jul2021 16:48:48.399] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module EntitySpawners
+[19Jul2021 16:48:48.401] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module ExtendNetherite
+[19Jul2021 16:48:48.403] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module ExtraRecipes
+[19Jul2021 16:48:48.404] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module ExtractEnchantments
+[19Jul2021 16:48:48.406] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module FeatherFallingCrops
+[19Jul2021 16:48:48.406] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Glowballs
+[19Jul2021 16:48:48.406] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module GoldChains
+[19Jul2021 16:48:48.407] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module GoldLanterns
+[19Jul2021 16:48:48.407] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module HuskImprovements
+[19Jul2021 16:48:48.409] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Kilns
+[19Jul2021 16:48:48.442] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Lumberjacks
+[19Jul2021 16:48:48.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.0.1 Target: null
+[19Jul2021 16:48:48.496] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Starting version check at https://raw.githubusercontent.com/percivalalb/DoggyTalents/1.16.x/version.json
+[19Jul2021 16:48:48.496] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module MineshaftImprovements
+[19Jul2021 16:48:48.518] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Mooblooms
+[19Jul2021 16:48:48.556] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module MorePortalFrames
+[19Jul2021 16:48:48.596] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module MoreVillageBiomes
+[19Jul2021 16:48:48.654] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module MusicImprovements
+[19Jul2021 16:48:48.692] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module NetheriteNuggets
+[19Jul2021 16:48:48.717] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module ParrotsStayOnShoulder
+[19Jul2021 16:48:48.718] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module PathToDirt
+[19Jul2021 16:48:48.719] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Found status: BETA Current: 2.0.1.9 Target: 2.0.1.8
+[19Jul2021 16:48:48.724] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettercaves] Starting version check at https://raw.githubusercontent.com/yungnickyoung/YUNGs-Better-Caves/1.16/versions.json
+[19Jul2021 16:48:48.727] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module PlayerState
+[19Jul2021 16:48:48.728] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module PortableCrafting
+[19Jul2021 16:48:48.728] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module PortableEnderChest
+[19Jul2021 16:48:48.728] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Quark
+[19Jul2021 16:48:48.729] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module RaidHorns
+[19Jul2021 16:48:48.729] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module RedstoneLanterns
+[19Jul2021 16:48:48.813] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettercaves] Found status: BETA Current: 1.16.4-1.1.2 Target: null
+[19Jul2021 16:48:48.819] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module RedstoneSand
+[19Jul2021 16:48:48.890] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module RefinedObsidian
+[19Jul2021 16:48:48.821] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.16.5
+[19Jul2021 16:48:48.923] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module RemoveNitwits
+[19Jul2021 16:48:48.923] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module RemovePotionGlint
+[19Jul2021 16:48:48.924] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module SmoothGlowstone
+[19Jul2021 16:48:48.924] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module SnowStorms
+[19Jul2021 16:48:48.924] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module StackableEnchantedBooks
+[19Jul2021 16:48:48.924] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module StackablePotions
+[19Jul2021 16:48:48.925] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module StackableStews
+[19Jul2021 16:48:48.928] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module StrayImprovements
+[19Jul2021 16:48:49.051] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module TamedAnimalsNoDamage
+[19Jul2021 16:48:49.112] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Tinted
+[19Jul2021 16:48:49.125] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module UseTotemFromInventory
+[19Jul2021 16:48:49.200] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module VariantBarrels
+[19Jul2021 16:48:49.209] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module VariantMobTextures
+[19Jul2021 16:48:49.343] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module WanderingTraderImprovements
+[19Jul2021 16:48:49.491] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module WitchesDropLuck
+[19Jul2021 16:48:49.537] [modloading-worker-15/INFO] [Charm/INTERNAL]: Initialising module Woodcutters
+[19Jul2021 16:48:49.737] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 6.0.0.25 Target: 6.0.0.25
+[19Jul2021 16:48:49.765] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.16.5
+[19Jul2021 16:48:49.922] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanism:robit, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:49.928] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:end_fish, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:49.928] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:dragonfly, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:49.929] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:shadow_walker, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:49.929] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:end_slime, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:49.930] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:cubozoa, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:49.931] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:silk_moth, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:49.960] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for pandoras_creatures:arachnon, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.028] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for pandoras_creatures:hellhound, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.184] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for pandoras_creatures:crab, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.050] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA_OUTDATED Current: 10.1.11 Target: 10.1.12
+[19Jul2021 16:48:50.221] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for pandoras_creatures:seahorse, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.222] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[19Jul2021 16:48:50.223] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for pandoras_creatures:acidic_archvine, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.227] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for pandoras_creatures:bufflon, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.228] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for pandoras_creatures:end_troll, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.233] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_creeper, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.235] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_enderman, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.236] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_skeleton, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.237] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_stray, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.237] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_wither_skeleton, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.239] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for darkerdepths:glowshroom_monster, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.239] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for darkerdepths:magma_minion, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.468] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:foliaath, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.508] [modloading-worker-13/INFO] [its_meow.betteranimalsplus.BetterAnimalsPlusMod/]: Finished crazy bird creation!
+[19Jul2021 16:48:50.593] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:baby_foliaath, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:50.889] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:ferrous_wroughtnaut, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:51.062] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoana, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:51.087] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoaya, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:51.095] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoan_player, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:51.111] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoa_sunblocker_player, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:51.111] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoan_barakoana, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:51.112] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoa_sunblocker, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:51.119] [modloading-worker-10/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarakoaVillager from class com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarako
+[19Jul2021 16:48:51.270] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barako, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:51.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.1.62 Target: null
+[19Jul2021 16:48:51.425] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
+[19Jul2021 16:48:51.336] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:frostmaw, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:51.620] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:naga, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:51.644] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:lantern, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:51.756] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:grottol, use EntityAttributeCreationEvent instead.
+[19Jul2021 16:48:53.220] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: UP_TO_DATE Current: 1.16.5-1.0.5 Target: null
+[19Jul2021 16:48:53.248] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
+[19Jul2021 16:48:53.696] [modloading-worker-5/ERROR] [me.ichun.mods.ichunutil.common.iChunUtil/]: Error deserializing HeadInfo for net.minecraft.entity.passive.fish.PufferfishEntity
+[19Jul2021 16:48:53.723] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: java.lang.UnsupportedOperationException
+[19Jul2021 16:48:53.732] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.AbstractList.remove(Unknown Source)
+[19Jul2021 16:48:53.741] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.AbstractList$Itr.remove(Unknown Source)
+[19Jul2021 16:48:53.742] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate.checkModels(HeadInfoDelegate.java:284)
+[19Jul2021 16:48:53.742] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:673)
+[19Jul2021 16:48:53.744] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:565)
+[19Jul2021 16:48:53.745] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+[19Jul2021 16:48:53.746] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:887)
+[19Jul2021 16:48:53.746] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:852)
+[19Jul2021 16:48:53.746] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:801)
+[19Jul2021 16:48:53.746] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:773)
+[19Jul2021 16:48:53.747] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfo(HeadHandler.java:293)
+[19Jul2021 16:48:53.747] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.readHeadInfoJson(HeadHandler.java:280)
+[19Jul2021 16:48:53.747] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.scourDirectory(HeadHandler.java:239)
+[19Jul2021 16:48:53.749] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfos(HeadHandler.java:179)
+[19Jul2021 16:48:53.751] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.init(HeadHandler.java:112)
+[19Jul2021 16:48:53.752] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.hats.common.Hats.finishLoading(Hats.java:198)
+[19Jul2021 16:48:53.753] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+[19Jul2021 16:48:53.753] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+[19Jul2021 16:48:53.754] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[19Jul2021 16:48:53.754] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[19Jul2021 16:48:53.754] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120)
+[19Jul2021 16:48:53.754] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121)
+[19Jul2021 16:48:53.755] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+[19Jul2021 16:48:53.755] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source)
+[19Jul2021 16:48:53.755] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+[19Jul2021 16:48:53.755] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+[19Jul2021 16:48:53.758] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[19Jul2021 16:48:53.759] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[19Jul2021 16:48:53.953] [modloading-worker-5/ERROR] [me.ichun.mods.ichunutil.common.iChunUtil/]: Error deserializing HeadInfo for net.minecraft.entity.passive.fish.TropicalFishEntity
+[19Jul2021 16:48:53.968] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: java.lang.UnsupportedOperationException
+[19Jul2021 16:48:53.980] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.AbstractList.remove(Unknown Source)
+[19Jul2021 16:48:53.987] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.AbstractList$Itr.remove(Unknown Source)
+[19Jul2021 16:48:54.011] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate.checkModels(HeadInfoDelegate.java:284)
+[19Jul2021 16:48:54.013] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:673)
+[19Jul2021 16:48:54.014] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:565)
+[19Jul2021 16:48:54.026] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+[19Jul2021 16:48:54.026] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:887)
+[19Jul2021 16:48:54.026] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:852)
+[19Jul2021 16:48:54.027] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:801)
+[19Jul2021 16:48:54.027] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:773)
+[19Jul2021 16:48:54.027] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfo(HeadHandler.java:293)
+[19Jul2021 16:48:54.027] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.readHeadInfoJson(HeadHandler.java:280)
+[19Jul2021 16:48:54.028] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.scourDirectory(HeadHandler.java:239)
+[19Jul2021 16:48:54.028] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfos(HeadHandler.java:179)
+[19Jul2021 16:48:54.028] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.init(HeadHandler.java:112)
+[19Jul2021 16:48:54.028] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.hats.common.Hats.finishLoading(Hats.java:198)
+[19Jul2021 16:48:54.029] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+[19Jul2021 16:48:54.029] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+[19Jul2021 16:48:54.029] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[19Jul2021 16:48:54.029] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[19Jul2021 16:48:54.030] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120)
+[19Jul2021 16:48:54.030] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121)
+[19Jul2021 16:48:54.030] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+[19Jul2021 16:48:54.030] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source)
+[19Jul2021 16:48:54.031] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+[19Jul2021 16:48:54.031] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+[19Jul2021 16:48:54.031] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[19Jul2021 16:48:54.031] [modloading-worker-5/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[19Jul2021 16:48:54.267] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: UP_TO_DATE Current: 1.16.5-1.6.15 Target: null
+[19Jul2021 16:48:54.270] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pandoras_creatures] Starting version check at https://raw.githubusercontent.com/andrew0030/Pandoras-Creatures/master/src/main/resources/assets/pandoras_creatures/update.json
+[19Jul2021 16:48:54.387] [modloading-worker-5/INFO] [me.ichun.mods.ichunutil.common.iChunUtil/]: Loaded 70 HeadInfo object(s)
+[19Jul2021 16:48:54.571] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pandoras_creatures] Found status: BETA Current: 1.16.3-2.0.1 Target: null
+[19Jul2021 16:48:54.603] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
+[19Jul2021 16:48:55.761] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Found status: BETA Current: 1.10.1 Target: 1.10.1
+[19Jul2021 16:48:55.764] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [survive] Starting version check at https://raw.githubusercontent.com/Stereowalker/Survive/master/update.json
+[19Jul2021 16:48:56.062] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.FileNotFoundException: https://raw.githubusercontent.com/Stereowalker/Survive/master/update.json
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_291]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_291]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_291]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_291]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_291]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:171) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_291]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:139) [forge:?]
+Caused by: java.io.FileNotFoundException: https://raw.githubusercontent.com/Stereowalker/Survive/master/update.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_291]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_291]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:155) ~[forge:?]
+	... 3 more
+[19Jul2021 16:48:56.066] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obfuscate] Starting version check at https://mrcrayfish.com/modupdatejson?id=obfuscate
+[19Jul2021 16:48:56.396] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obfuscate] Found status: BETA Current: 0.6.2 Target: 0.6.2
+[19Jul2021 16:48:56.407] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vehicle] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/vehicle/update.json
+[19Jul2021 16:48:56.654] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vehicle] Found status: BETA Current: 0.45.2 Target: null
+[19Jul2021 16:48:56.660] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[19Jul2021 16:48:56.993] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre22 Target: 7.0.0-pre22
+[19Jul2021 16:49:01.317] [main/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Value 10 outside of range [0:7]
+[19Jul2021 16:49:02.483] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19Jul2021 16:49:02.819] [main/INFO] [Bookshelf/]: Registering 1 commands.
+[19Jul2021 16:49:02.940] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, UnionLib-1.16.5-3.3.2.jar, Hats-1.16.5-10.3.1.jar, ElenaiDodge-1.16.2-1.7.2.jar, DoggyTalents-1.16.5-2.0.1.9.jar, pitg-1.16.3-1.4.2.jar, BetterCaves-Forge-1.16.4-1.1.2.jar, ForgeEndertech-1.16.4-7.1.0.0-build.0075.jar, CTM-MC1.16.1-1.1.2.6.jar, Placebo-1.16.4-4.5.0.jar, citadel-1.7.2-1.16.5.jar, YungsApi-1.16.4-Forge-11.jar, Bookshelf-1.16.5-10.1.11.jar, MekanismGenerators-1.16.5-10.0.21.448.jar, carryon-1.16.5-1.15.5.15.jar, betterendforge-1.16.4-1.6.0.jar, cuneiform-1.16.3-1.2.5.jar, corpse-1.16.5-1.0.5.jar, MekanismAdditions-1.16.5-10.0.21.448.jar, DarkerDepths-1.16.5-1.0.1.jar, curios-forge-1.16.5-4.0.5.2.jar, specialai-1.16.5-1.0.0.jar, YungsExtras-Forge-1.16.4-1.0.jar, lostcities-1.16-4.0.9-beta.jar, Survive-1.16.5-3.3.2.jar, obfuscate-0.6.2-1.16.3.jar, vehicle-mod-0.45.2-1.16.3.jar, BetterStrongholds-1.16.4-1.2.jar, Desolation 1.1.0-1 1.16.5.jar, MekanismTools-1.16.5-10.0.21.448.jar, cfm-7.0.0pre22-1.16.3.jar, observerlib-1.16.5-1.5.3.jar, cloth-config-4.11.26-forge.jar, bgcore-1.16.5-3.2.jar, CustomStartingGear-1.16.4-2.0.2.1-universal.jar, BetterMineshafts-Forge-1.16.4-2.0.4.jar, QuarkOddities-1.16.3.jar, mowziesmobs-1.5.19.jar, torchslabmod-1.16.4_v1.6.19.jar, cgm-1.0.1-1.16.3.jar, Mekanism-1.16.5-10.0.21.448.jar, caelus-forge-1.16.5-2.1.3.0.jar, InvMove-1.16.3-0.4.6.jar, colytra-forge-1.16.5-5.1.1.1.jar, BetterPortals-1.16.4-0.3.3.jar, Clumps-6.0.0.25.jar, comforts-forge-1.16.5-4.0.1.1.jar, creeperaiupdated-forge-1.3.1.jar, ColtCosmeticArmorMod-1.2.5.jar, champions-forge-1.16.5-2.0.1.7.jar, betteranimalsplus-1.16.5-10.2.0.jar, burninthesun-1.16.5-1.2.3.jar, RealisticTorches-1.16.5-3.1.2.jar, walljump-forge-1.16.4-1.3.7.jar, iChunUtil-1.16.5-10.4.1.jar, forge-1.16.5-36.1.62-universal.jar, goprone-1.16.4-1.3.5.jar, voicechat-forge-1.16.5-1.6.15.jar, swingthroughgrass-1.16.4-1.5.3.jar, pandoras_creatures-1.16.3-2.0.1.jar, CreativeCore_v2.2.0_mc1.16.5.jar, mobsunscreen-1.16.5-3.0.4.jar, FastWorkbench-1.16.4-4.5.1.jar, AutoRegLib-1.6-49.jar, Quark-r2.4-314.jar, charm-forge-1.16.5-2.3.2.jar, terraincognita-1.16.3-1.6.4.2.jar, backpacked-1.10.1-1.16.3.jar, twoplayersonehorse-1.16.4-2.0.2.jar, betterinvisibility-1.16.5-1.0.1.jar, CosmeticArmorReworked-1.16.5-v3a.jar, valhelsia_core-16.0.9.jar, valhelsia_structures-1.16.5-0.1.3.jar, enhancedcelestials-1.0.4-1.16.4.jar
+[19Jul2021 16:49:03.059] [ForkJoinPool.commonPool-worker-6/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found biome temperature modifier for the biome minecraft:birch_forest
+[19Jul2021 16:49:03.144] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:chainmail_boots
+[19Jul2021 16:49:03.145] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:chainmail_chestplate
+[19Jul2021 16:49:03.147] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:chainmail_helmet
+[19Jul2021 16:49:03.147] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for minecraft:beetroot_soup
+[19Jul2021 16:49:03.148] [ForkJoinPool.commonPool-worker-2/WARN] [com.stereowalker.unionlib.mod.UnionMod/]: No such item exists with the id survive:example_consumable_item!
+[19Jul2021 16:49:03.149] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for minecraft:honey_bottle
+[19Jul2021 16:49:03.149] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for minecraft:melon_slice
+[19Jul2021 16:49:03.149] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:chainmail_leggings
+[19Jul2021 16:49:03.150] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for minecraft:poisonous_potato
+[19Jul2021 16:49:03.151] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:diamond_boots
+[19Jul2021 16:49:03.151] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for minecraft:potion
+[19Jul2021 16:49:03.152] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:diamond_chestplate
+[19Jul2021 16:49:03.151] [ForkJoinPool.commonPool-worker-11/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found potion drink data for minecraft:water
+[19Jul2021 16:49:03.153] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for minecraft:pufferfish
+[19Jul2021 16:49:03.153] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:diamond_helmet
+[19Jul2021 16:49:03.154] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for minecraft:pumpkin_pie
+[19Jul2021 16:49:03.155] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for survive:purified_water_bottle
+[19Jul2021 16:49:03.155] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:diamond_leggings
+[19Jul2021 16:49:03.156] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for survive:purified_water_bowl
+[19Jul2021 16:49:03.157] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:golden_boots
+[19Jul2021 16:49:03.157] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for survive:purified_water_canteen
+[19Jul2021 16:49:03.159] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:golden_chestplate
+[19Jul2021 16:49:03.159] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for minecraft:rotten_flesh
+[19Jul2021 16:49:03.159] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:golden_helmet
+[19Jul2021 16:49:03.160] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for survive:sugar_water_bottle
+[19Jul2021 16:49:03.160] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:golden_leggings
+[19Jul2021 16:49:03.161] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for minecraft:sweet_berries
+[19Jul2021 16:49:03.162] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:iron_boots
+[19Jul2021 16:49:03.162] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for survive:water_bowl
+[19Jul2021 16:49:03.163] [ForkJoinPool.commonPool-worker-2/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found item consummable data for survive:water_canteen
+[19Jul2021 16:49:03.163] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:iron_chestplate
+[19Jul2021 16:49:03.164] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:iron_helmet
+[19Jul2021 16:49:03.166] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:iron_leggings
+[19Jul2021 16:49:03.167] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:leather_boots
+[19Jul2021 16:49:03.167] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:leather_chestplate
+[19Jul2021 16:49:03.169] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:leather_helmet
+[19Jul2021 16:49:03.170] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:leather_leggings
+[19Jul2021 16:49:03.173] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:netherite_boots
+[19Jul2021 16:49:03.174] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:netherite_chestplate
+[19Jul2021 16:49:03.174] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:netherite_helmet
+[19Jul2021 16:49:03.175] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:netherite_leggings
+[19Jul2021 16:49:03.175] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item survive:stiffened_honey_boots
+[19Jul2021 16:49:03.175] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item survive:stiffened_honey_chestplate
+[19Jul2021 16:49:03.176] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item survive:stiffened_honey_helmet
+[19Jul2021 16:49:03.176] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item survive:stiffened_honey_leggings
+[19Jul2021 16:49:03.177] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item minecraft:turtle_helmet
+[19Jul2021 16:49:03.177] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item survive:wool_boots
+[19Jul2021 16:49:03.178] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item survive:wool_hat
+[19Jul2021 16:49:03.178] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item survive:wool_jacket
+[19Jul2021 16:49:03.179] [ForkJoinPool.commonPool-worker-4/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found armor modifier for the item survive:wool_pants
+[19Jul2021 16:49:03.190] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:blast_furnace
+[19Jul2021 16:49:03.191] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:blue_ice
+[19Jul2021 16:49:03.192] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:campfire
+[19Jul2021 16:49:03.193] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:fire
+[19Jul2021 16:49:03.194] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:furnace
+[19Jul2021 16:49:03.195] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:ice
+[19Jul2021 16:49:03.196] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:lantern
+[19Jul2021 16:49:03.196] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:lava
+[19Jul2021 16:49:03.199] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:magma_block
+[19Jul2021 16:49:03.206] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:packed_ice
+[19Jul2021 16:49:03.206] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:smoker
+[19Jul2021 16:49:03.207] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:snow
+[19Jul2021 16:49:03.208] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:snow_block
+[19Jul2021 16:49:03.208] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:soul_fire
+[19Jul2021 16:49:03.210] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:soul_lantern
+[19Jul2021 16:49:03.211] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:soul_torch
+[19Jul2021 16:49:03.211] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:soul_wall_torch
+[19Jul2021 16:49:03.215] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:torch
+[19Jul2021 16:49:03.217] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:wall_torch
+[19Jul2021 16:49:03.219] [ForkJoinPool.commonPool-worker-13/INFO] [com.stereowalker.unionlib.mod.UnionMod/]: Found block temperature modifier for the item minecraft:water
+[19Jul2021 16:49:04.424] [Worker-Main-14/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:boost_pad
+com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[19Jul2021 16:49:04.425] [Worker-Main-14/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:boost_ramp
+com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[19Jul2021 16:49:04.510] [Worker-Main-14/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cfm:craft_sofa
+com.google.gson.JsonSyntaxException: Invalid vehicle entity: vehicle:sofa
+[19Jul2021 16:49:04.561] [Worker-Main-14/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe darkerdepths:heart_chamber
+com.google.gson.JsonSyntaxException: Unknown item 'darkerdepths:heart_chamber'
+[19Jul2021 16:49:04.606] [Worker-Main-14/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:steep_boost_ramp
+com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[19Jul2021 16:49:04.670] [Worker-Main-14/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 41 recipes
+[19Jul2021 16:49:05.000] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table darkerdepths:blocks/silver_ore
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'darkerdepths:silver_ore'
+[19Jul2021 16:49:05.085] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table darkerdepths:blocks/speleothem
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'darkerdepths:speleothem'
+[19Jul2021 16:49:05.270] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table terraincognita:blocks/hazel_pantry
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'terraincognita:hazel_pantry'
+[19Jul2021 16:49:05.406] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table terraincognita:blocks/hazel_beehive
+java.lang.IllegalArgumentException: Can't find block terraincognita:hazel_beehive
+	at net.minecraft.loot.functions.CopyBlockState$Serializer.func_227555_a_(SourceFile:116) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.loot.functions.CopyBlockState$Serializer.func_186530_b(SourceFile:116) ~[?:?]
+	at net.minecraft.loot.functions.CopyBlockState$Serializer.func_186530_b(SourceFile:102) ~[?:?]
+	at net.minecraft.loot.LootFunction$Serializer.func_230423_a_(SourceFile:99) ~[?:?]
+	at net.minecraft.loot.LootFunction$Serializer.func_230423_a_(SourceFile:88) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:149) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:129) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:86) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.ParentedLootEntry$1.func_230421_b_(SourceFile:61) ~[?:?]
+	at net.minecraft.loot.ParentedLootEntry$1.func_230421_b_(SourceFile:53) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:86) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:183) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:881) ~[forge:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.complete(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniCompose(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_291]
+[19Jul2021 16:49:05.564] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table darkerdepths:blocks/heart_chamber
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'darkerdepths:heart_chamber'
+[19Jul2021 16:49:05.606] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table darkerdepths:blocks/elytrine_ore
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'darkerdepths:elytrine_crystal'
+[19Jul2021 16:49:05.609] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table terraincognita:blocks/apple_pantry
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'terraincognita:apple_pantry'
+[19Jul2021 16:49:05.713] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table darkerdepths:blocks/polished_aridrock_wall
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'darkerdepths:polished_aridrock_wall'
+[19Jul2021 16:49:05.798] [Worker-Main-14/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table terraincognita:blocks/apple_beehive
+java.lang.IllegalArgumentException: Can't find block terraincognita:apple_beehive
+	at net.minecraft.loot.functions.CopyBlockState$Serializer.func_227555_a_(SourceFile:116) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.loot.functions.CopyBlockState$Serializer.func_186530_b(SourceFile:116) ~[?:?]
+	at net.minecraft.loot.functions.CopyBlockState$Serializer.func_186530_b(SourceFile:102) ~[?:?]
+	at net.minecraft.loot.LootFunction$Serializer.func_230423_a_(SourceFile:99) ~[?:?]
+	at net.minecraft.loot.LootFunction$Serializer.func_230423_a_(SourceFile:88) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:149) ~[?:?]
+	at net.minecraft.loot.StandaloneLootEntry$Serializer.func_230421_b_(SourceFile:129) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:86) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.ParentedLootEntry$1.func_230421_b_(SourceFile:61) ~[?:?]
+	at net.minecraft.loot.ParentedLootEntry$1.func_230421_b_(SourceFile:53) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:86) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:183) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:881) ~[forge:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.complete(Unknown Source) ~[?:1.8.0_291]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniCompose(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_291]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_291]
+[19Jul2021 16:49:05.894] [Worker-Main-14/INFO] [placebo/]: Registered 0 additional loot tables.
+[19Jul2021 16:49:05.997] [Worker-Main-14/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2133 advancements
+[19Jul2021 16:49:06.002] [Worker-Main-14/INFO] [placebo/]: Registered 0 additional recipes.
+[19Jul2021 16:49:09.703] [main/INFO] [STDOUT/]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [minecraft:soul_fire_base_blocks, forge:glass_panes/magenta, mekanismadditions:plastic_blocks/transparent, forge:ores/biotite, quark:planks_vertical_slab, terraincognita:apple_logs, valhelsia_structures:jars, mekanismadditions:plastic_blocks/glow, betterendforge:gen_terrain, quark:stools, forge:storage_blocks/netherite, forge:glass_panes/white, forge:gravel, forge:stairs/plastic/transparent, forge:glass_panes/cyan, forge:glass_panes/light_gray, minecraft:wool, forge:glass/colorless, charm:crates, enhancedcelestials:harvest_moon_blacklisted_crop_growth, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, quark:candles, forge:ores/netherite_scrap, minecraft:dragon_immune, minecraft:crops, mekanismadditions:plastic_blocks/reinforced, quark:quilted_wools, forge:stained_glass, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, forge:storage_blocks/uranium, forge:stairs/plastic/glow, minecraft:warped_stems, forge:glass/red, forge:storage_blocks/iron, forge:glass_panes/brown, forge:glass_panes/green, betterendforge:end_lotus_logs, carryon:block_blacklist, minecraft:prevent_mob_spawning_inside, minecraft:climbable, forge:chests/trapped, forge:fence_gates, minecraft:dark_oak_logs, forge:storage_blocks/steel, quark:ladders, minecraft:coral_plants, forge:glass_panes, minecraft:non_flammable_wood, forge:sandstone, forge:storage_blocks/copper, forge:glass_panes/colorless, forge:braziers, forge:ores/fluorite, mekanismadditions:plastic_blocks/slick, darkerdepths:underground_base_blocks, terraincognita:sweet_peas, forge:storage_blocks/refined_glowstone, forge:storage_blocks/bronze, charm:barrels, minecraft:fences, minecraft:saplings, forge:storage_blocks/tin, forge:storage_blocks/lapis, forge:ores/copper, betteranimalsplus:butterfly_growables, minecraft:beds, forge:ores/diamond, minecraft:unstable_bottom_center, forge:ores/lead, minecraft:doors, cfm:fence_gates/picket, minecraft:enderman_holdable, mekanismadditions:plastic_blocks/road, minecraft:banners, forge:relocation_not_supported, minecraft:infiniburn_overworld, minecraft:flower_pots, minecraft:wooden_fences, minecraft:wall_post_override, mekanismadditions:glow_panels, forge:obsidian, forge:enderman_place_on_blacklist, forge:chests/electric, forge:slabs/plastic/glow, forge:ores/tin, forge:glass/white, forge:glass_panes/red, minecraft:signs, minecraft:wither_summon_base_blocks, forge:glass/magenta, terraincognita:hanging_moss_plantable_on, terraincognita:hazel_logs, forge:storage_blocks/osmium, forge:ores/coal, minecraft:hoglin_repellents, minecraft:fire, mekanism:cardboard_blacklist, cfm:fence_gates/upgraded, minecraft:base_stone_nether, minecraft:wall_signs, charm:bookcases, carryon:block_whitelist, forge:fences/plastic, betterendforge:lacugrove_logs, forge:sand/colorless, minecraft:trapdoors, forge:glass/cyan, quark:crab_spawnable, forge:glass, minecraft:soul_speed_blocks, forge:storage_blocks/charcoal, mekanismadditions:plastic_blocks/plastic, minecraft:leaves, minecraft:walls, minecraft:coral_blocks, forge:fence_gates/plastic, forge:glass/green, forge:storage_blocks/lead, forge:glass_panes/gray, minecraft:wither_immune, minecraft:acacia_logs, forge:stained_glass_panes, valhelsia_structures:colored_jars, minecraft:underwater_bonemeals, forge:sand/red, betterendforge:end_ground, minecraft:impermeable, minecraft:sand, forge:end_stones, enhancedcelestials:harvest_moon_whitelisted_crop_growth, forge:glass/brown, betterendforge:umbrella_tree_logs, minecraft:logs_that_burn, forge:fences/wooden, forge:glass/gray, minecraft:campfires, forge:storage_blocks, minecraft:infiniburn_nether, forge:glass_panes/orange, forge:glass/light_gray, forge:ores/quartz, minecraft:wooden_slabs, forge:glass/blue, minecraft:small_flowers, forge:storage_blocks/refined_obsidian, mekanism:atomic_disassembler_ore, minecraft:wooden_trapdoors, forge:ores/osmium, cfm:fences/upgraded, forge:storage_blocks/coal, forge:glass_panes/black, forge:glass/light_blue, cfm:fences/picket, forge:ores/thallasium, forge:slabs/plastic, forge:storage_blocks/redstone, betterendforge:mossy_glowshroom_logs, charm:chests/trapped, forge:glass_panes/blue, minecraft:stairs, quark:underground_biome_replaceable, minecraft:logs, forge:ores/amber, betterendforge:helix_tree_logs, forge:stone, minecraft:valid_spawn, minecraft:mushroom_grow_block, quark:wraith_spawnable, minecraft:wooden_doors, minecraft:standing_signs, minecraft:infiniburn_end, forge:glass_panes/yellow, forge:glass/purple, quark:slime_blocks, minecraft:crimson_stems, quark:vertical_slab, betterendforge:lucernia_logs, minecraft:wart_blocks, betterendforge:tenanea_logs, terraincognita:lotuses, quark:hedges, charm:immovable_by_pistons, charm:chests/normal, minecraft:beacon_base_blocks, minecraft:shulker_boxes, valhelsia_structures:cut_posts, minecraft:anvil, minecraft:birch_logs, forge:sand, forge:ores/ender, minecraft:wall_corals, forge:glass_panes/purple, forge:glass/yellow, quark:pike_trophies, betterendforge:jellyshroom_logs, minecraft:oak_logs, forge:ores/gold, forge:barrels, minecraft:piglin_repellents, forge:ores/lapis, forge:glass/black, charm:chests/wooden, minecraft:portals, forge:stairs/plastic, forge:dirt, minecraft:bamboo_plantable_on, forge:fences/nether_brick, forge:glass/lime, forge:chests/wooden, forge:ores/iron, quark:lead_connectable, minecraft:pressure_plates, forge:storage_blocks/biotite, betterendforge:dragon_tree_logs, minecraft:jungle_logs, cfm:fences/hedge, forge:chests/ender, minecraft:wooden_stairs, minecraft:spruce_logs, mekanismadditions:plastic_blocks, forge:slabs/plastic/transparent, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, quark:crystal, charm:nether_portal_frames, forge:fence_gates/wooden, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:ores/uranium, forge:glass/orange, forge:glass_panes/lime, minecraft:slabs, minecraft:guarded_by_piglins, forge:ores/emerald, charm:bookshelves, minecraft:corals, minecraft:buttons, minecraft:flowers, quark:foxhound_spawnable, minecraft:planks, terraincognita:peat_multiblock_plants, forge:cobblestone, minecraft:rails, betterendforge:pythadendron_logs, forge:barrels/wooden, minecraft:strider_warm_blocks, forge:storage_blocks/gold, minecraft:fence_gates, forge:ores, minecraft:bee_growables, minecraft:wooden_pressure_plates, minecraft:tall_flowers, forge:fences, forge:bookshelves, minecraft:stone_pressure_plates, valhelsia_structures:non_flammable_posts, charm:lanterns, forge:storage_blocks/diamond, minecraft:nylium, minecraft:gold_ores, valhelsia_structures:posts, forge:glass_panes/pink, forge:chests/personal, forge:netherrack]
+[19Jul2021 16:49:09.705] [main/INFO] [STDOUT/]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [minecraft:soul_fire_base_blocks, forge:glass_panes/magenta, mekanismadditions:plastic_blocks/transparent, forge:ores/biotite, quark:planks_vertical_slab, terraincognita:apple_logs, valhelsia_structures:jars, mekanismadditions:plastic_blocks/glow, betterendforge:gen_terrain, quark:stools, forge:storage_blocks/netherite, forge:glass_panes/white, forge:gravel, forge:stairs/plastic/transparent, forge:glass_panes/cyan, forge:glass_panes/light_gray, minecraft:wool, forge:glass/colorless, charm:crates, enhancedcelestials:harvest_moon_blacklisted_crop_growth, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, quark:candles, forge:ores/netherite_scrap, minecraft:dragon_immune, minecraft:crops, mekanismadditions:plastic_blocks/reinforced, quark:quilted_wools, forge:stained_glass, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, forge:storage_blocks/uranium, forge:stairs/plastic/glow, minecraft:warped_stems, forge:glass/red, forge:storage_blocks/iron, forge:glass_panes/brown, forge:glass_panes/green, betterendforge:end_lotus_logs, carryon:block_blacklist, minecraft:prevent_mob_spawning_inside, minecraft:climbable, forge:chests/trapped, forge:fence_gates, minecraft:dark_oak_logs, forge:storage_blocks/steel, quark:ladders, minecraft:coral_plants, forge:glass_panes, minecraft:non_flammable_wood, forge:sandstone, forge:storage_blocks/copper, forge:glass_panes/colorless, forge:braziers, forge:ores/fluorite, mekanismadditions:plastic_blocks/slick, darkerdepths:underground_base_blocks, terraincognita:sweet_peas, forge:storage_blocks/refined_glowstone, forge:storage_blocks/bronze, charm:barrels, minecraft:fences, minecraft:saplings, forge:storage_blocks/tin, forge:storage_blocks/lapis, forge:ores/copper, betteranimalsplus:butterfly_growables, minecraft:beds, forge:ores/diamond, minecraft:unstable_bottom_center, forge:ores/lead, minecraft:doors, cfm:fence_gates/picket, minecraft:enderman_holdable, mekanismadditions:plastic_blocks/road, minecraft:banners, forge:relocation_not_supported, minecraft:infiniburn_overworld, minecraft:flower_pots, minecraft:wooden_fences, minecraft:wall_post_override, mekanismadditions:glow_panels, forge:obsidian, forge:enderman_place_on_blacklist, forge:chests/electric, forge:slabs/plastic/glow, forge:ores/tin, forge:glass/white, forge:glass_panes/red, minecraft:signs, minecraft:wither_summon_base_blocks, forge:glass/magenta, terraincognita:hanging_moss_plantable_on, terraincognita:hazel_logs, forge:storage_blocks/osmium, forge:ores/coal, minecraft:hoglin_repellents, minecraft:fire, mekanism:cardboard_blacklist, cfm:fence_gates/upgraded, minecraft:base_stone_nether, minecraft:wall_signs, charm:bookcases, carryon:block_whitelist, forge:fences/plastic, betterendforge:lacugrove_logs, forge:sand/colorless, minecraft:trapdoors, forge:glass/cyan, quark:crab_spawnable, forge:glass, minecraft:soul_speed_blocks, forge:storage_blocks/charcoal, mekanismadditions:plastic_blocks/plastic, minecraft:leaves, minecraft:walls, minecraft:coral_blocks, forge:fence_gates/plastic, forge:glass/green, forge:storage_blocks/lead, forge:glass_panes/gray, minecraft:wither_immune, minecraft:acacia_logs, forge:stained_glass_panes, valhelsia_structures:colored_jars, minecraft:underwater_bonemeals, forge:sand/red, betterendforge:end_ground, minecraft:impermeable, minecraft:sand, forge:end_stones, enhancedcelestials:harvest_moon_whitelisted_crop_growth, forge:glass/brown, betterendforge:umbrella_tree_logs, minecraft:logs_that_burn, forge:fences/wooden, forge:glass/gray, minecraft:campfires, forge:storage_blocks, minecraft:infiniburn_nether, forge:glass_panes/orange, forge:glass/light_gray, forge:ores/quartz, minecraft:wooden_slabs, forge:glass/blue, minecraft:small_flowers, forge:storage_blocks/refined_obsidian, mekanism:atomic_disassembler_ore, minecraft:wooden_trapdoors, forge:ores/osmium, cfm:fences/upgraded, forge:storage_blocks/coal, forge:glass_panes/black, forge:glass/light_blue, cfm:fences/picket, forge:ores/thallasium, forge:slabs/plastic, forge:storage_blocks/redstone, betterendforge:mossy_glowshroom_logs, charm:chests/trapped, forge:glass_panes/blue, minecraft:stairs, quark:underground_biome_replaceable, minecraft:logs, forge:ores/amber, betterendforge:helix_tree_logs, forge:stone, minecraft:valid_spawn, minecraft:mushroom_grow_block, quark:wraith_spawnable, minecraft:wooden_doors, minecraft:standing_signs, minecraft:infiniburn_end, forge:glass_panes/yellow, forge:glass/purple, quark:slime_blocks, minecraft:crimson_stems, quark:vertical_slab, betterendforge:lucernia_logs, minecraft:wart_blocks, betterendforge:tenanea_logs, terraincognita:lotuses, quark:hedges, charm:immovable_by_pistons, charm:chests/normal, minecraft:beacon_base_blocks, minecraft:shulker_boxes, valhelsia_structures:cut_posts, minecraft:anvil, minecraft:birch_logs, forge:sand, forge:ores/ender, minecraft:wall_corals, forge:glass_panes/purple, forge:glass/yellow, quark:pike_trophies, betterendforge:jellyshroom_logs, minecraft:oak_logs, forge:ores/gold, forge:barrels, minecraft:piglin_repellents, forge:ores/lapis, forge:glass/black, charm:chests/wooden, minecraft:portals, forge:stairs/plastic, forge:dirt, minecraft:bamboo_plantable_on, forge:fences/nether_brick, forge:glass/lime, forge:chests/wooden, forge:ores/iron, quark:lead_connectable, minecraft:pressure_plates, forge:storage_blocks/biotite, betterendforge:dragon_tree_logs, minecraft:jungle_logs, cfm:fences/hedge, forge:chests/ender, minecraft:wooden_stairs, minecraft:spruce_logs, mekanismadditions:plastic_blocks, forge:slabs/plastic/transparent, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, quark:crystal, charm:nether_portal_frames, forge:fence_gates/wooden, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:ores/uranium, forge:glass/orange, forge:glass_panes/lime, minecraft:slabs, minecraft:guarded_by_piglins, forge:ores/emerald, charm:bookshelves, minecraft:corals, minecraft:buttons, minecraft:flowers, quark:foxhound_spawnable, minecraft:planks, terraincognita:peat_multiblock_plants, forge:cobblestone, minecraft:rails, betterendforge:pythadendron_logs, forge:barrels/wooden, minecraft:strider_warm_blocks, forge:storage_blocks/gold, minecraft:fence_gates, forge:ores, minecraft:bee_growables, minecraft:wooden_pressure_plates, minecraft:tall_flowers, forge:fences, forge:bookshelves, minecraft:stone_pressure_plates, valhelsia_structures:non_flammable_posts, charm:lanterns, forge:storage_blocks/diamond, minecraft:nylium, minecraft:gold_ores, valhelsia_structures:posts, forge:glass_panes/pink, forge:chests/personal, forge:netherrack]
+[19Jul2021 16:49:13.682] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[19Jul2021 16:49:13.682] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[19Jul2021 16:49:13.683] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[19Jul2021 16:49:13.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19Jul2021 16:49:13.742] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[19Jul2021 16:49:13.750] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[19Jul2021 16:49:14.048] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19Jul2021 16:49:14.048] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[19Jul2021 16:49:14.049] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19Jul2021 16:49:14.050] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[19Jul2021 16:49:14.086] [Server thread/INFO] [me.ichun.mods.hats.common.Hats/]: Allocated Hat Pools.
+[19Jul2021 16:49:14.124] [Server thread/INFO] [STDOUT/]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [minecraft:soul_fire_base_blocks, forge:glass_panes/magenta, mekanismadditions:plastic_blocks/transparent, forge:ores/biotite, quark:planks_vertical_slab, terraincognita:apple_logs, valhelsia_structures:jars, mekanismadditions:plastic_blocks/glow, betterendforge:gen_terrain, quark:stools, forge:storage_blocks/netherite, forge:glass_panes/white, forge:gravel, forge:stairs/plastic/transparent, forge:glass_panes/cyan, forge:glass_panes/light_gray, minecraft:wool, forge:glass/colorless, charm:crates, enhancedcelestials:harvest_moon_blacklisted_crop_growth, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, quark:candles, forge:ores/netherite_scrap, minecraft:dragon_immune, minecraft:crops, mekanismadditions:plastic_blocks/reinforced, quark:quilted_wools, forge:stained_glass, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, forge:storage_blocks/uranium, forge:stairs/plastic/glow, minecraft:warped_stems, forge:glass/red, forge:storage_blocks/iron, forge:glass_panes/brown, forge:glass_panes/green, betterendforge:end_lotus_logs, carryon:block_blacklist, minecraft:prevent_mob_spawning_inside, minecraft:climbable, forge:chests/trapped, forge:fence_gates, minecraft:dark_oak_logs, forge:storage_blocks/steel, quark:ladders, minecraft:coral_plants, forge:glass_panes, minecraft:non_flammable_wood, forge:sandstone, forge:storage_blocks/copper, forge:glass_panes/colorless, forge:braziers, forge:ores/fluorite, mekanismadditions:plastic_blocks/slick, darkerdepths:underground_base_blocks, terraincognita:sweet_peas, forge:storage_blocks/refined_glowstone, forge:storage_blocks/bronze, charm:barrels, minecraft:fences, minecraft:saplings, forge:storage_blocks/tin, forge:storage_blocks/lapis, forge:ores/copper, betteranimalsplus:butterfly_growables, minecraft:beds, forge:ores/diamond, minecraft:unstable_bottom_center, forge:ores/lead, minecraft:doors, cfm:fence_gates/picket, minecraft:enderman_holdable, mekanismadditions:plastic_blocks/road, minecraft:banners, forge:relocation_not_supported, minecraft:infiniburn_overworld, minecraft:flower_pots, minecraft:wooden_fences, minecraft:wall_post_override, mekanismadditions:glow_panels, forge:obsidian, forge:enderman_place_on_blacklist, forge:chests/electric, forge:slabs/plastic/glow, forge:ores/tin, forge:glass/white, forge:glass_panes/red, minecraft:signs, minecraft:wither_summon_base_blocks, forge:glass/magenta, terraincognita:hanging_moss_plantable_on, terraincognita:hazel_logs, forge:storage_blocks/osmium, forge:ores/coal, minecraft:hoglin_repellents, minecraft:fire, mekanism:cardboard_blacklist, cfm:fence_gates/upgraded, minecraft:base_stone_nether, minecraft:wall_signs, charm:bookcases, carryon:block_whitelist, forge:fences/plastic, betterendforge:lacugrove_logs, forge:sand/colorless, minecraft:trapdoors, forge:glass/cyan, quark:crab_spawnable, forge:glass, minecraft:soul_speed_blocks, forge:storage_blocks/charcoal, mekanismadditions:plastic_blocks/plastic, minecraft:leaves, minecraft:walls, minecraft:coral_blocks, forge:fence_gates/plastic, forge:glass/green, forge:storage_blocks/lead, forge:glass_panes/gray, minecraft:wither_immune, minecraft:acacia_logs, forge:stained_glass_panes, valhelsia_structures:colored_jars, minecraft:underwater_bonemeals, forge:sand/red, betterendforge:end_ground, minecraft:impermeable, minecraft:sand, forge:end_stones, enhancedcelestials:harvest_moon_whitelisted_crop_growth, forge:glass/brown, betterendforge:umbrella_tree_logs, minecraft:logs_that_burn, forge:fences/wooden, forge:glass/gray, minecraft:campfires, forge:storage_blocks, minecraft:infiniburn_nether, forge:glass_panes/orange, forge:glass/light_gray, forge:ores/quartz, minecraft:wooden_slabs, forge:glass/blue, minecraft:small_flowers, forge:storage_blocks/refined_obsidian, mekanism:atomic_disassembler_ore, minecraft:wooden_trapdoors, forge:ores/osmium, cfm:fences/upgraded, forge:storage_blocks/coal, forge:glass_panes/black, forge:glass/light_blue, cfm:fences/picket, forge:ores/thallasium, forge:slabs/plastic, forge:storage_blocks/redstone, betterendforge:mossy_glowshroom_logs, charm:chests/trapped, forge:glass_panes/blue, minecraft:stairs, quark:underground_biome_replaceable, minecraft:logs, forge:ores/amber, betterendforge:helix_tree_logs, forge:stone, minecraft:valid_spawn, minecraft:mushroom_grow_block, quark:wraith_spawnable, minecraft:wooden_doors, minecraft:standing_signs, minecraft:infiniburn_end, forge:glass_panes/yellow, forge:glass/purple, quark:slime_blocks, minecraft:crimson_stems, quark:vertical_slab, betterendforge:lucernia_logs, minecraft:wart_blocks, betterendforge:tenanea_logs, terraincognita:lotuses, quark:hedges, charm:immovable_by_pistons, charm:chests/normal, minecraft:beacon_base_blocks, minecraft:shulker_boxes, valhelsia_structures:cut_posts, minecraft:anvil, minecraft:birch_logs, forge:sand, forge:ores/ender, minecraft:wall_corals, forge:glass_panes/purple, forge:glass/yellow, quark:pike_trophies, betterendforge:jellyshroom_logs, minecraft:oak_logs, forge:ores/gold, forge:barrels, minecraft:piglin_repellents, forge:ores/lapis, forge:glass/black, charm:chests/wooden, minecraft:portals, forge:stairs/plastic, forge:dirt, minecraft:bamboo_plantable_on, forge:fences/nether_brick, forge:glass/lime, forge:chests/wooden, forge:ores/iron, quark:lead_connectable, minecraft:pressure_plates, forge:storage_blocks/biotite, betterendforge:dragon_tree_logs, minecraft:jungle_logs, cfm:fences/hedge, forge:chests/ender, minecraft:wooden_stairs, minecraft:spruce_logs, mekanismadditions:plastic_blocks, forge:slabs/plastic/transparent, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, quark:crystal, charm:nether_portal_frames, forge:fence_gates/wooden, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:ores/uranium, forge:glass/orange, forge:glass_panes/lime, minecraft:slabs, minecraft:guarded_by_piglins, forge:ores/emerald, charm:bookshelves, minecraft:corals, minecraft:buttons, minecraft:flowers, quark:foxhound_spawnable, minecraft:planks, terraincognita:peat_multiblock_plants, forge:cobblestone, minecraft:rails, betterendforge:pythadendron_logs, forge:barrels/wooden, minecraft:strider_warm_blocks, forge:storage_blocks/gold, minecraft:fence_gates, forge:ores, minecraft:bee_growables, minecraft:wooden_pressure_plates, minecraft:tall_flowers, forge:fences, forge:bookshelves, minecraft:stone_pressure_plates, valhelsia_structures:non_flammable_posts, charm:lanterns, forge:storage_blocks/diamond, minecraft:nylium, minecraft:gold_ores, valhelsia_structures:posts, forge:glass_panes/pink, forge:chests/personal, forge:netherrack]
+[19Jul2021 16:49:14.339] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[19Jul2021 16:49:14.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19Jul2021 16:49:15.578] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19Jul2021 16:49:15.578] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19Jul2021 16:49:15.579] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19Jul2021 16:49:16.040] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntitySongbird from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[19Jul2021 16:49:16.076] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityButterfly from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[19Jul2021 16:49:16.077] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityButterfly from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[19Jul2021 16:49:16.119] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityBadger from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[19Jul2021 16:49:16.141] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityDeer from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[19Jul2021 16:49:16.967] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[19Jul2021 16:49:16.967] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[19Jul2021 16:49:17.050] [Worker-Main-13/INFO] [bettercaves/]: CREATING AND INIT'ING CARVER W DIMENSION minecraft:overworld...
+[19Jul2021 16:49:17.052] [Worker-Main-13/INFO] [bettercaves/]: Better Caves config file for dimension minecraft:overworld not found. Using global config...
+[19Jul2021 16:49:17.094] [Worker-Main-13/INFO] [bettercaves/]: Using block 'minecraft:lava' as lava in cave generation for dimension minecraft:overworld
+[19Jul2021 16:49:17.095] [Worker-Main-13/INFO] [bettercaves/]: Using block 'Block{minecraft:water}[level=0]' as water in cave generation for dimension minecraft:overworld
+[19Jul2021 16:49:17.145] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[19Jul2021 16:49:17.555] [Worker-Main-18/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[19Jul2021 16:49:18.052] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[19Jul2021 16:49:18.321] [Worker-Main-9/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Base value out of range: 250 [-10-128]
+[19Jul2021 16:49:18.321] [Worker-Main-9/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Base value out of range: 250 [-10-128]
+[19Jul2021 16:49:18.323] [Worker-Main-9/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Base value out of range: 160 [-10-128]
+[19Jul2021 16:49:18.323] [Worker-Main-9/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Base value out of range: 160 [-10-128]
+[19Jul2021 16:49:18.324] [Worker-Main-9/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Value 10 outside of range [0:7]
+[19Jul2021 16:49:19.440] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[19Jul2021 16:49:19.463] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[19Jul2021 16:49:19.589] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[19Jul2021 16:49:20.060] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[19Jul2021 16:49:20.574] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[19Jul2021 16:49:21.322] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[19Jul2021 16:49:21.561] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[19Jul2021 16:49:22.054] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[19Jul2021 16:49:22.576] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
+[19Jul2021 16:49:23.093] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[19Jul2021 16:49:23.422] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 8870 ms
+[19Jul2021 16:49:23.422] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.352s)! For help, type "help"
+[19Jul2021 16:49:23.442] [Server thread/INFO] [corgitaco.enchancedcelestials.EnhancedCelestials/]: Enhanced Celestials: "Server Starting" Event Complete!
+[19Jul2021 16:49:23.452] [VoiceChatServerThread/INFO] [voicechat/]: Server started at port 24454
+[19Jul2021 16:49:25.042] [Server thread/WARN] [mixin/]: @Final field field_242962_a:Lnet/minecraft/block/AbstractBlock$IPositionPredicate; in charm.mixins.json:PortalSizeMixin should be final
+[19Jul2021 16:49:43.199] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@49abbdec
+[19Jul2021 16:49:43.224] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Rinyte[/25.64.220.248:57799] logged in with entity id 262 at (-139.16680417313225, 101.0, 118.68038458301346)
+[19Jul2021 16:49:43.277] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rinyte joined the game
+[19Jul2021 16:49:43.453] [Server thread/INFO] [voicechat/]: Sent secret to Rinyte
+[19Jul2021 16:49:44.532] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityFlyingFish from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[19Jul2021 16:49:44.535] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityFlyingFish from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[19Jul2021 16:49:44.538] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityJellyfish from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[19Jul2021 16:49:44.539] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityJellyfish from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[19Jul2021 16:49:44.544] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityFreshwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[19Jul2021 16:49:44.544] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityFreshwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[19Jul2021 16:49:50.138] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: Successfully authenticated player 5ea7e4dc-8acd-35ca-a156-e14d95b3352e
+[19Jul2021 16:50:00.859] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Rinyte lost connection: Disconnected
+[19Jul2021 16:50:00.859] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rinyte left the game
+[19Jul2021 16:50:00.861] [Server thread/INFO] [voicechat/]: Disconnecting client Rinyte

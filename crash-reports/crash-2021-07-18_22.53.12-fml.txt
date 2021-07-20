@@ -1,0 +1,203 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 7/18/21 10:53 PM
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.fml.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:85) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:51) ~[forge:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:95) ~[?:?] {re:classloading}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_291] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_291] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_291] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_291] {}
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[forge_server.jar:36.1] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?] {}
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [forge_server.jar:?] {}
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [forge_server.jar:?] {}
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [forge_server.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Stacktrace:
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71) ~[forge_server.jar:36.1] {}
+-- MOD camoucreepers --
+Details:
+	Mod File: camoucreeper-2.0.0.jar
+	Failure message: Camouflaged Creepers has class loading errors
+		java.lang.RuntimeException: Attempted to load class com/tsaky/camoucreepers/CamouCreepers for invalid dist DEDICATED_SERVER
+	Mod Version: 1.16.5-2.0.0
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.RuntimeException: Attempted to load class com/tsaky/camoucreepers/CamouCreepers for invalid dist DEDICATED_SERVER
+Stacktrace:
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:71) ~[forge_server.jar:36.1] {}
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:85) ~[modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?] {re:classloading}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_291] {}
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_291] {}
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_291] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:61) ~[forge:36.1] {re:classloading}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_291] {}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_291] {}
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_291] {}
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_291] {}
+	at net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider$FMLModTarget.loadMod(FMLJavaModLanguageProvider.java:76) ~[forge:36.1] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.buildModContainerFromTOML(ModLoader.java:302) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.lambda$buildMods$29(ModLoader.java:281) ~[forge:?] {re:classloading}
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.HashMap$EntrySpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.stream.ReferencePipeline.collect(Unknown Source) ~[?:1.8.0_291] {}
+	at net.minecraftforge.fml.ModLoader.buildMods(ModLoader.java:283) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$11(ModLoader.java:183) ~[forge:?] {re:classloading}
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:1.8.0_291] {}
+	at java.util.stream.ReferencePipeline.collect(Unknown Source) ~[?:1.8.0_291] {}
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:44) ~[forge:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:95) ~[?:?] {re:classloading}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_291] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_291] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_291] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_291] {}
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[forge_server.jar:36.1] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?] {}
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [forge_server.jar:?] {}
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [forge_server.jar:?] {}
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [forge_server.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_291, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1181223864 bytes (1126 MB) / 2386558976 bytes (2276 MB) up to 3817865216 bytes (3641 MB)
+	CPUs: 12
+	JVM Flags: 2 total; -Xmx4096M -Xms1024M
+	ModLauncher: 8.0.9+86+master.3cf110c
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.2.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge_server.jar object_holder_definalize PLUGINSERVICE 
+		/forge_server.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge_server.jar capability_inject_definalize PLUGINSERVICE 
+		/forge_server.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.2.jar mixin TRANSFORMATIONSERVICE 
+		/forge_server.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.1
+	Forge: net.minecraftforge:36.1.62
+	FML Language Providers: 
+		javafml@36.1
+		minecraft@1
+	Mod List: 
+		QuarkOddities-1.16.3.jar                          |Quark Oddities                |quarkoddities                 |1.16.3              |NONE      |Manifest: NOSIGNATURE
+		mowziesmobs-1.5.19.jar                            |Mowzie's Mobs                 |mowziesmobs                   |1.5.19              |NONE      |Manifest: NOSIGNATURE
+		UnionLib-1.16.5-3.3.2.jar                         |UnionLib                      |unionlib                      |3.3.2               |NONE      |Manifest: NOSIGNATURE
+		torchslabmod-1.16.4_v1.6.19.jar                   |Torch Slab Mod                |torchslabmod                  |1.6.18              |NONE      |Manifest: NOSIGNATURE
+		Hats-1.16.5-10.3.1.jar                            |Hats                          |hats                          |10.3.1              |NONE      |Manifest: NOSIGNATURE
+		cgm-1.0.1-1.16.3.jar                              |MrCrayfish's Gun Mod          |cgm                           |1.0.1               |NONE      |Manifest: NOSIGNATURE
+		ElenaiDodge-1.16.2-1.7.2.jar                      |Elenai Dodge                  |elenaidodge                   |1.16.2-1.7.2        |NONE      |Manifest: NOSIGNATURE
+		camoucreeper-2.0.0.jar                            |Camouflaged Creepers          |camoucreepers                 |1.16.5-2.0.0        |NONE      |Manifest: NOSIGNATURE
+		DoggyTalents-1.16.5-2.0.1.9.jar                   |Doggy Talents 2               |doggytalents                  |2.0.1.9             |NONE      |Manifest: NOSIGNATURE
+		Mekanism-1.16.5-10.0.21.448.jar                   |Mekanism                      |mekanism                      |10.0.21             |NONE      |Manifest: NOSIGNATURE
+		caelus-forge-1.16.5-2.1.3.0.jar                   |Caelus API                    |caelus                        |1.16.5-2.1.3.0      |NONE      |Manifest: NOSIGNATURE
+		InvMove-1.16.3-0.4.6.jar                          |InvMove                       |invmove                       |0.4.6               |NONE      |Manifest: NOSIGNATURE
+		colytra-forge-1.16.5-5.1.1.1.jar                  |Colytra                       |colytra                       |1.16.5-5.1.1.1      |NONE      |Manifest: NOSIGNATURE
+		pitg-1.16.3-1.4.2.jar                             |Pane In The Glass             |pitg                          |1.16.3-1.4.2        |NONE      |Manifest: NOSIGNATURE
+		BetterCaves-Forge-1.16.4-1.1.2.jar                |YUNG's Better Caves           |bettercaves                   |1.16.4-1.1.2        |NONE      |Manifest: NOSIGNATURE
+		ForgeEndertech-1.16.4-7.1.0.0-build.0075.jar      |Forge Endertech               |forgeendertech                |7.1.0.0             |NONE      |Manifest: NOSIGNATURE
+		BetterPortals-1.16.4-0.3.3.jar                    |YUNG's Better Portals         |betterportals                 |1.16.4-0.3.3        |NONE      |Manifest: NOSIGNATURE
+		Clumps-6.0.0.25.jar                               |Clumps                        |clumps                        |6.0.0.25            |NONE      |Manifest: NOSIGNATURE
+		journeymap-1.16.5-5.7.1.jar                       |Journeymap                    |journeymap                    |5.7.1               |NONE      |Manifest: NOSIGNATURE
+		CTM-MC1.16.1-1.1.2.6.jar                          |ConnectedTexturesMod          |ctm                           |MC1.16.1-1.1.2.6    |NONE      |Manifest: NOSIGNATURE
+		Placebo-1.16.4-4.5.0.jar                          |Placebo                       |placebo                       |4.5.0               |NONE      |Manifest: NOSIGNATURE
+		comforts-forge-1.16.5-4.0.1.1.jar                 |Comforts                      |comforts                      |1.16.5-4.0.1.1      |NONE      |Manifest: NOSIGNATURE
+		citadel-1.7.2-1.16.5.jar                          |Citadel                       |citadel                       |1.7.2               |NONE      |Manifest: NOSIGNATURE
+		YungsApi-1.16.4-Forge-11.jar                      |YUNG's API                    |yungsapi                      |1.16.4-Forge-11     |NONE      |Manifest: NOSIGNATURE
+		creeperaiupdated-forge-1.3.1.jar                  |Creeper AI Updated            |creeperaiupdated              |1.3.1               |NONE      |Manifest: NOSIGNATURE
+		ColtCosmeticArmorMod-1.2.5.jar                    |Colt's Cosmetic Armour Mod    |ccam                          |1.0.1               |NONE      |Manifest: NOSIGNATURE
+		champions-forge-1.16.5-2.0.1.7.jar                |Champions                     |champions                     |1.16.5-2.0.1.7      |NONE      |Manifest: NOSIGNATURE
+		betteranimalsplus-1.16.5-10.2.0.jar               |Better Animals Plus           |betteranimalsplus             |10.2.0              |NONE      |Manifest: NOSIGNATURE
+		Bookshelf-1.16.5-10.1.11.jar                      |Bookshelf                     |bookshelf                     |10.1.11             |NONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		burninthesun-1.16.5-1.2.3.jar                     |Burn in the Sun               |burninthesun                  |1.16.5-1.2.3        |NONE      |Manifest: NOSIGNATURE
+		RealisticTorches-1.16.5-3.1.2.jar                 |Realistic Torches             |realistictorches              |1.16.5-3.1.2        |NONE      |Manifest: NOSIGNATURE
+		MekanismGenerators-1.16.5-10.0.21.448.jar         |Mekanism: Generators          |mekanismgenerators            |10.0.21             |NONE      |Manifest: NOSIGNATURE
+		walljump-forge-1.16.4-1.3.7.jar                   |Wall-Jump!                    |walljump                      |1.16.4-1.3.7        |NONE      |Manifest: NOSIGNATURE
+		Toast-Control-1.16.4-4.3.1.jar                    |Toast Control                 |toastcontrol                  |4.3.1               |NONE      |Manifest: NOSIGNATURE
+		iChunUtil-1.16.5-10.4.1.jar                       |iChunUtil                     |ichunutil                     |10.4.1              |NONE      |Manifest: NOSIGNATURE
+		carryon-1.16.5-1.15.5.15.jar                      |Carry On                      |carryon                       |1.15.5.15           |NONE      |Manifest: 8c:03:ac:7d:21:62:65:e2:83:91:f3:22:57:99:ed:75:78:1e:db:de:03:99:ef:53:3b:59:95:18:01:bc:84:a9
+		forge-1.16.5-36.1.62-universal.jar                |Forge                         |forge                         |36.1.62             |NONE      |Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+		betterendforge-1.16.4-1.6.0.jar                   |BetterEnd Forge               |betterendforge                |1.16.4-1.6.0        |NONE      |Manifest: NOSIGNATURE
+		cuneiform-1.16.3-1.2.5.jar                        |Cuneiform                     |cuneiform                     |1.16.3-1.2.5        |NONE      |Manifest: NOSIGNATURE
+		corpse-1.16.5-1.0.5.jar                           |Corpse                        |corpse                        |1.16.5-1.0.5        |NONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.1.62-server.jar                   |Minecraft                     |minecraft                     |1.16.5              |NONE      |Manifest: NOSIGNATURE
+		voicechat-forge-1.16.5-1.6.15.jar                 |Simple Voice Chat             |voicechat                     |1.16.5-1.6.15       |NONE      |Manifest: NOSIGNATURE
+		swingthroughgrass-1.16.4-1.5.3.jar                |SwingThroughGrass             |swingthroughgrass             |1.16.4-1.5.3        |NONE      |Manifest: NOSIGNATURE
+		pandoras_creatures-1.16.3-2.0.1.jar               |Pandoras Creatures            |pandoras_creatures            |1.16.3-2.0.1        |NONE      |Manifest: NOSIGNATURE
+		MouseTweaks-2.14-mc1.16.2.jar                     |Mouse Tweaks                  |mousetweaks                   |2.14                |NONE      |Manifest: NOSIGNATURE
+		visiblearmorslots-2.0-1.16.5.jar                  |Visible Armor Slots           |visiblearmorslots             |2.0-1.16.5          |NONE      |Manifest: NOSIGNATURE
+		MekanismAdditions-1.16.5-10.0.21.448.jar          |Mekanism: Additions           |mekanismadditions             |10.0.21             |NONE      |Manifest: NOSIGNATURE
+		CreativeCore_v2.2.0_mc1.16.5.jar                  |CreativeCore                  |creativecore                  |2.0.0               |NONE      |Manifest: NOSIGNATURE
+		DarkerDepths-1.16.5-1.0.1.jar                     |Darker Depths                 |darkerdepths                  |1.0.1}              |NONE      |Manifest: NOSIGNATURE
+		goprone-1.16.4-1.3.5.jar                          |GoProne                       |goprone                       |1.16.4-1.3.5        |NONE      |Manifest: NOSIGNATURE
+		curios-forge-1.16.5-4.0.5.2.jar                   |Curios API                    |curios                        |1.16.5-4.0.5.2      |NONE      |Manifest: NOSIGNATURE
+		mobsunscreen-1.16.5-3.0.4.jar                     |Mob Sunscreen                 |mobsunscreen                  |1.16.5-3.0.4        |NONE      |Manifest: NOSIGNATURE
+		betterweather-1.2.9.jar                           |Better Weather                |betterweather                 |1.2.8               |NONE      |Manifest: NOSIGNATURE
+		specialai-1.16.5-1.0.0.jar                        |Special AI                    |specialai                     |1.16.5-1.0.0        |NONE      |Manifest: NOSIGNATURE
+		FastWorkbench-1.16.4-4.5.1.jar                    |FastWorkbench                 |fastbench                     |4.5.1               |NONE      |Manifest: NOSIGNATURE
+		AutoRegLib-1.6-49.jar                             |AutoRegLib                    |autoreglib                    |1.6-49              |NONE      |Manifest: NOSIGNATURE
+		Quark-r2.4-314.jar                                |Quark                         |quark                         |r2.4-314            |NONE      |Manifest: NOSIGNATURE
+		terraincognita-1.16.3-1.6.4.2.jar                 |Terra Incognita               |terraincognita                |1.16.3-1.6.4.2      |NONE      |Manifest: NOSIGNATURE
+		YungsExtras-Forge-1.16.4-1.0.jar                  |YUNG's Extras                 |yungsextras                   |Forge-1.16.4-1.0    |NONE      |Manifest: NOSIGNATURE
+		backpacked-1.10.1-1.16.3.jar                      |Backpacked                    |backpacked                    |1.10.1              |NONE      |Manifest: NOSIGNATURE
+		twoplayersonehorse-1.16.4-2.0.2.jar               |2 players 1 horse             |twoplayersonehorse            |1.16.4-2.0.2        |NONE      |Manifest: NOSIGNATURE
+		lostcities-1.16-4.0.9-beta.jar                    |LostCities                    |lostcities                    |1.16-4.0.9-beta     |NONE      |Manifest: NOSIGNATURE
+		Survive-1.16.5-3.3.2.jar                          |Survive                       |survive                       |1.16.5-3.3.2        |NONE      |Manifest: NOSIGNATURE
+		fogoverrides-1.16.5-1.1.0.jar                     |Fog Overrides                 |fogoverrides                  |1.16.5-1.1.0        |NONE      |Manifest: NOSIGNATURE
+		obfuscate-0.6.2-1.16.3.jar                        |Obfuscate                     |obfuscate                     |0.6.2               |NONE      |Manifest: e1:59:1a:56:ec:97:b3:d0:b3:4b:25:06:1f:83:b0:f4:fd:0c:24:e3:6d:ea:94:b1:9f:22:b0:38:13:60:88:ea
+		vehicle-mod-0.45.2-1.16.3.jar                     |MrCrayfish's Vehicle Mod      |vehicle                       |0.45.2              |NONE      |Manifest: NOSIGNATURE
+		BetterStrongholds-1.16.4-1.2.jar                  |YUNG's Better Strongholds     |betterstrongholds             |1.16.4-1.2          |NONE      |Manifest: NOSIGNATURE
+		Desolation 1.1.0-1 1.16.5.jar                     |Desolation (Forge)            |desolation                    |1.1.0-1             |NONE      |Manifest: NOSIGNATURE
+		MekanismTools-1.16.5-10.0.21.448.jar              |Mekanism: Tools               |mekanismtools                 |10.0.21             |NONE      |Manifest: NOSIGNATURE
+		cfm-7.0.0pre22-1.16.3.jar                         |MrCrayfish's Furniture Mod    |cfm                           |7.0.0-pre22         |NONE      |Manifest: NOSIGNATURE
+		observerlib-1.16.5-1.5.3.jar                      |ObserverLib                   |observerlib                   |1.16.5-1.5.3        |NONE      |Manifest: NOSIGNATURE
+		cloth-config-4.11.26-forge.jar                    |Cloth Config v4 API           |cloth-config                  |4.11.26             |NONE      |Manifest: NOSIGNATURE
+		enhancedcelestials-1.0.4-1.16.4.jar               |Enhanced Celestials           |enhancedcelestials            |1.0.4-1.16.4        |NONE      |Manifest: NOSIGNATURE
+		bgcore-1.16.5-3.2.jar                             |bgcore                        |bgcore                        |3.2                 |NONE      |Manifest: NOSIGNATURE
+		charm-forge-1.16.5-2.3.2.jar                      |Charm                         |charm                         |2.3.2               |NONE      |Manifest: NOSIGNATURE
+		betterinvisibility-1.16.5-1.0.1.jar               |Better Invisibility           |betterinvisibility            |1.0.1               |NONE      |Manifest: NOSIGNATURE
+		CustomStartingGear-1.16.4-2.0.2.1-universal.jar   |Custom Starter Gear           |customstartinggear            |2.0.2.1             |NONE      |Manifest: NOSIGNATURE
+		CosmeticArmorReworked-1.16.5-v3a.jar              |CosmeticArmorReworked         |cosmeticarmorreworked         |1.16.5-v3a          |NONE      |Manifest: 5e:ed:25:99:e4:44:14:c0:dd:89:c1:a9:4c:10:b5:0d:e4:b1:52:50:45:82:13:d8:d0:32:89:67:56:57:01:53
+		valhelsia_core-16.0.9.jar                         |Valhelsia Core                |valhelsia_core                |16.0.9              |NONE      |Manifest: NOSIGNATURE
+		valhelsia_structures-1.16.5-0.1.3.jar             |Valhelsia Structures          |valhelsia_structures          |1.16.5-0.1.3        |NONE      |Manifest: NOSIGNATURE
+		BetterMineshafts-Forge-1.16.4-2.0.4.jar           |YUNG's Better Mineshafts      |bettermineshafts              |1.16.4-2.0.4        |NONE      |Manifest: NOSIGNATURE
